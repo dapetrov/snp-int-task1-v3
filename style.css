@@ -431,7 +431,7 @@ h3 {
   }
 }
 
-.choose-tour__header {
+.header-h2 {
   text-align: center;
 }
 
@@ -517,6 +517,7 @@ h3 {
 
 .card-tour {
   display: inline-block;
+  margin-top: 18px;
   width: 318px;
   height: 318px;
   border-radius: 20px;
@@ -528,6 +529,7 @@ h3 {
 }
 @media (min-width: 599px) {
   .card-tour {
+    margin-top: 18px;
     border-radius: 50px;
     width: 420px;
     height: 420px;
@@ -538,6 +540,7 @@ h3 {
 }
 @media (min-width: 1023px) {
   .card-tour {
+    margin-top: 18px;
     border-radius: 50px;
     width: 450px;
     height: 531px;
@@ -562,6 +565,7 @@ h3 {
 }
 @media (min-width: 1800px) {
   .card-tour {
+    margin-top: 30px;
     width: 370px;
     height: 531px;
     padding: 50px 0px 0px 30px;
@@ -894,22 +898,6 @@ h3 {
   margin: 20px 0 40px 0;
   color: #a6a6a6;
   text-align: center;
-}
-@media (min-width: 1023px) {
-  .collect-tour__header-text-360 {
-    display: none;
-  }
-}
-
-.collect-tour__header-text-1024 {
-  margin: 30px 0px 100px 0px;
-  color: #a6a6a6;
-  text-align: center;
-}
-@media (max-width: 1023px) {
-  .collect-tour__header-text-1024 {
-    display: none;
-  }
 }
 
 .collect-tour__form {
