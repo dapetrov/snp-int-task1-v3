@@ -30,12 +30,6 @@ footer {
   }
 }
 
-textarea {
-  resize: none;
-  display: block;
-  margin-top: 8px;
-}
-
 p {
   margin: 0;
 }
@@ -900,7 +894,7 @@ h3 {
   text-align: center;
 }
 
-.collect-tour__form {
+.form {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -909,13 +903,13 @@ h3 {
   border-radius: 30px;
 }
 @media (min-width: 1023px) {
-  .collect-tour__form {
+  .form {
     padding: 60px 60px 60px;
     margin: 0px 32px;
   }
 }
 @media (min-width: 1800px) {
-  .collect-tour__form {
+  .form {
     padding: 70px 70px 70px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -926,18 +920,18 @@ h3 {
   }
 }
 
-.collect-tour__form__container__radio {
+.form__radio-cont {
   align-items: flex-start;
 }
 @media (min-width: 1023px) {
-  .collect-tour__form__container__radio {
+  .form__radio-cont {
     width: 798px;
     height: 64px;
   }
 }
 
 @media (min-width: 1023px) {
-  .collect-tour__form__container__row {
+  .form__row-two {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -945,7 +939,7 @@ h3 {
 }
 
 @media (max-width: 599px) {
-  .collect-tour__form__container-one::after {
+  .form__container-one::after {
     position: absolute;
     z-index: 1;
     content: "";
@@ -958,7 +952,7 @@ h3 {
   }
 }
 @media (min-width: 599px) and (max-width: 1023px) {
-  .collect-tour__form__container-one::after {
+  .form__container-one::after {
     position: absolute;
     z-index: 1;
     content: "";
@@ -972,12 +966,12 @@ h3 {
 }
 
 @media (min-width: 1023px) {
-  .collect-tour__form__container-row-one {
+  .form__row-one {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
-  .collect-tour__form__container-row-one::after {
+  .form__row-one::after {
     position: absolute;
     content: "";
     display: block;
@@ -989,7 +983,7 @@ h3 {
   }
 }
 @media (min-width: 1800px) {
-  .collect-tour__form__container-row-one::after {
+  .form__row-one::after {
     position: absolute;
     content: "";
     display: block;
@@ -1002,11 +996,7 @@ h3 {
   }
 }
 
-.collect-tour__form-name {
-  margin-bottom: 8px;
-}
-
-input {
+.form__input {
   transition: 0.2s linear;
   border: 1px solid #f4f0e9;
   border-radius: 10px;
@@ -1022,43 +1012,44 @@ input {
   display: block;
   margin-top: 8px;
 }
-input:focus {
+.form__input:focus {
   border: 1px #a6a6a6 solid;
   background-color: #f4f0e9 !important;
 }
-input ::placeholder {
+.form__input ::placeholder {
   color: #cccccc;
 }
 @media (min-width: 599px) {
-  input {
+  .form__input {
     width: 460px;
     height: 80px;
   }
 }
 @media (min-width: 1023px) {
-  input {
+  .form__input {
     width: 389px;
     height: 68px;
   }
 }
 @media (min-width: 1023px) {
-  input:hover {
+  .form__input:hover {
     cursor: pointer;
     background-color: #f4f0e9 !important;
   }
 }
 @media (min-width: 1800px) {
-  input {
+  .form__input {
     width: 500px;
     height: 68px;
   }
 }
 
-.collect-tour__form__container-sel {
+.form__container-sel {
   position: relative;
 }
 
-.collect-tour__form__select {
+.form__select {
+  margin-top: 8px;
   transition: 0.2s linear;
   border: 1px solid #f4f0e9;
   border-radius: 10px;
@@ -1075,40 +1066,40 @@ input ::placeholder {
   appearance: none;
   display: block;
 }
-.collect-tour__form__select:focus {
+.form__select:focus {
   border: #a6a6a6 1px solid;
   background-color: #f4f0e9 !important;
 }
 @media (min-width: 599px) {
-  .collect-tour__form__select {
+  .form__select {
     width: 460px;
     height: 80px;
   }
 }
 @media (min-width: 1023px) {
-  .collect-tour__form__select {
+  .form__select {
     width: 389px;
     height: 68px;
   }
 }
 @media (min-width: 1023px) {
-  .collect-tour__form__select:hover {
+  .form__select:hover {
     cursor: pointer;
     background-color: #f4f0e9 !important;
   }
 }
 @media (min-width: 1800px) {
-  .collect-tour__form__select {
+  .form__select {
     width: 500px;
     height: 68px;
   }
 }
 
-.collect-tour__form__container-sel {
+.form__container-sel {
   display: inline-block;
 }
 
-.collect-tour__form-input-сomment {
+.form__textarea {
   transition: 0.2s linear;
   border: 1px solid #f4f0e9;
   border-radius: 10px;
@@ -1123,48 +1114,51 @@ input ::placeholder {
   padding-left: 10px;
   margin-bottom: 30px;
   text-decoration: none;
+  resize: none;
+  display: block;
+  margin-top: 8px;
 }
-.collect-tour__form-input-сomment:focus {
+.form__textarea:focus {
   border: 1px solid #a6a6a6;
   background-color: #f4f0e9 !important;
 }
 @media (min-width: 599px) {
-  .collect-tour__form-input-сomment {
+  .form__textarea {
     width: 460px;
     height: 200px;
   }
 }
 @media (min-width: 1023px) {
-  .collect-tour__form-input-сomment {
+  .form__textarea {
     width: 798px;
     height: 152px;
   }
 }
 @media (min-width: 1023px) {
-  .collect-tour__form-input-сomment:hover {
+  .form__textarea:hover {
     cursor: pointer;
     background-color: #f4f0e9 !important;
   }
 }
 @media (min-width: 1800px) {
-  .collect-tour__form-input-сomment {
+  .form__textarea {
     width: 1030px;
     height: 152px;
   }
 }
 
 @media (max-width: 599px) {
-  .collect-tour__form__accept-all-buttons {
+  .form__accept-all-buttons {
     width: 248px;
   }
 }
 @media (min-width: 1800px) {
-  .collect-tour__form__accept-all-buttons {
+  .form__accept-all-buttons {
     width: 1030px;
   }
 }
 
-.collect-tour__form-input-radio-button {
+.form-input-radio-button {
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -1173,11 +1167,11 @@ input ::placeholder {
   margin-top: 9px;
 }
 @media (max-width: 1023px) {
-  .collect-tour__form-input-radio-button {
+  .form-input-radio-button {
     display: none;
   }
 }
-.collect-tour__form-input-radio-button_m {
+.form-input-radio-button_m {
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -1185,7 +1179,7 @@ input ::placeholder {
   gap: 30px;
 }
 @media (min-width: 1023px) {
-  .collect-tour__form-input-radio-button_m {
+  .form-input-radio-button_m {
     display: none;
   }
 }
