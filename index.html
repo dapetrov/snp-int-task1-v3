@@ -91,8 +91,8 @@
               <h3 class="card-tour__text-cont__name">Путешествие в горы</h3>
               <p class="card-tour__text-cont__price p-small">от 80 000 руб</p>
               <button class="more">
-                <p class="more__text p-big">Подробнее</p>
-                <div class="more__vector"></div>
+                <span class="more__text p-big">Подробнее</span>
+                <span class="more__vector"></span>
               </button>
             </div>
           </div>
@@ -103,8 +103,8 @@
               <h3 class="card-tour__text-cont__name">Путешествие в горы</h3>
               <p class="card-tour__text-cont__price p-small">от 80 000 руб</p>
               <button class="more">
-                <p class="more__text p-big">Подробнее</p>
-                <div class="more__vector"></div>
+                <span class="more__text p-big">Подробнее</span>
+                <span class="more__vector"></span>
               </button>
             </div>
           </div>
@@ -115,8 +115,8 @@
               <h3 class="card-tour__text-cont__name">Путешествие в горы</h3>
               <p class="card-tour__text-cont__price p-small">от 80 000 руб</p>
               <button class="more">
-                <p class="more__text p-big">Подробнее</p>
-                <div class="more__vector"></div>
+                <span class="more__text p-big">Подробнее</span>
+                <span class="more__vector"></span>
               </button>
             </div>
           </div>
@@ -127,8 +127,8 @@
               <h3 class="card-tour__text-cont__name">Путешествие в горы</h3>
               <p class="card-tour__text-cont__price p-small">от 80 000 руб</p>
               <button class="more">
-                <p class="more__text p-big">Подробнее</p>
-                <p class="more__vector"></p>
+                <span class="more__text p-big">Подробнее</span>
+                <span class="more__vector"></span>
               </button>
             </div>
           </div>
@@ -139,8 +139,8 @@
               <h3 class="card-tour__text-cont__name">Путешествие в горы</h3>
               <p class="card-tour__text-cont__price p-small">от 80 000 руб</p>
               <button class="more">
-                <p class="more__text p-big">Подробнее</p>
-                <div class="more__vector"></div>
+                <span class="more__text p-big">Подробнее</span>
+                <span class="more__vector"></span>
               </button>
             </div>
           </div>
@@ -151,8 +151,8 @@
               <h3 class="card-tour__text-cont__name">Путешествие в горы</h3>
               <p class="card-tour__text-cont__price p-small">от 80 000 руб</p>
               <button class="more">
-                <p class="more__text p-big">Подробнее</p>
-                <div class="more__vector"></div>
+                <span class="more__text p-big">Подробнее</span>
+                <span class="more__vector"></span>
               </button>
             </div>
           </div>
@@ -165,7 +165,7 @@
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
-        <!-- ФОРМУ НУЖНО ПЕРЕСОБРАТЬ --><!-- ФОРМУ НУЖНО ПЕРЕСОБРАТЬ --><!-- ФОРМУ НУЖНО ПЕРЕСОБРАТЬ -->
+
         <form class="form p-normal">
           <div class="form__row-one">
             <label>
@@ -241,86 +241,59 @@
               <label
                 >Вам есть 18 лет?
                 <div class="radio">
-                  <div class="radio-btn-container">
+                  <div class="radio__container">
                     <input
-                      class="radio-btn"
+                      class="radio__button"
                       type="radio"
                       id="contactChoice1"
                       name="choice"
                       value="yes"
                       required="required"
                     />
-                    <label class="radiobutton" for="contactChoice1"></label>
+                    <label
+                      class="radio__button__label-img"
+                      for="contactChoice1"
+                    ></label>
                     <label for="contactChoice1">Да</label>
                   </div>
-                  <div class="radio-btn-container">
+                  <div class="radio__container">
                     <input
-                      class="radio-btn"
+                      class="radio__button"
                       type="radio"
                       id="contactChoice2"
                       name="choice"
                       value="no"
                       required="required"
                     />
-                    <label class="radiobutton" for="contactChoice2"></label>
+                    <label
+                      class="radio__button__label-img"
+                      for="contactChoice2"
+                    ></label>
                     <label for="contactChoice2">Нет</label>
                   </div>
                 </div></label
               >
-
-              <div class="radio_m">
-                <div class="radio-btn-container">
-                  <input
-                    class="radio-btn__m"
-                    type="radio"
-                    id="contactChoice1M"
-                    name="choiceM"
-                    value="yes"
-                    required="required"
-                  />
-                  <label class="radiobutton_m" for="contactChoice1M"></label>
-                  <label for="contactChoice1M">Да</label>
-                </div>
-                <div class="radio-btn-container">
-                  <input
-                    class="radio-btn__m"
-                    type="radio"
-                    id="contactChoice2M"
-                    name="choiceM"
-                    value="no"
-                    required="required"
-                  />
-                  <label class="radiobutton_m" for="contactChoice2M"></label>
-                  <label for="contactChoice2M">Нет</label>
-                </div>
-              </div>
             </div>
-            <div class="accept-licenz p-small">
-              <div class="accept-licenze__input">
-                <input
-                  class="accept-licenz__checkbox"
-                  type="checkbox"
-                  id="checkboxComputer"
-                  required="required"
-                />
-                <label class="checkboxcomp" for="checkboxComputer"></label>
-              </div>
 
-              <div class="accept-licenze__input_m">
-                <input
-                  class="accept-licenz__checkbox_m"
-                  type="checkbox"
-                  id="checkboxMobile"
-                  required="required"
-                />
-                <label class="checkboxcomp_m" for="checkboxMobile"></label>
-              </div>
-              <div class="accept-licenz__text">
+            <div class="form__accept-licenz p-small">
+              <input
+                class="form__accept-licenz__checkbox"
+                type="checkbox"
+                id="checkboxComputer"
+                required="required"
+              />
+              <label
+                class="form__accept-licenz__checkbox__label"
+                for="checkboxComputer"
+              ></label>
+
+              <p class="form__accept-licenz__text">
                 Нажимая кнопку, я принимаю условия
                 <span class="a__licenz" href="">Лицензионного договора</span>
-              </div>
+              </p>
             </div>
           </div>
+
           <div class="accept-buttons__wrapper">
             <div class="accept-buttons">
               <button class="accept-button__yes p-normal" type="submit">

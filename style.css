@@ -1166,11 +1166,7 @@ h3 {
   gap: 30px;
   margin-top: 9px;
 }
-@media (max-width: 1023px) {
-  .radio {
-    display: none;
-  }
-}
+
 .radio_m {
   display: flex;
   flex-direction: row;
@@ -1184,49 +1180,65 @@ h3 {
   }
 }
 
-.radiobutton {
+.radio__button__label-img {
   height: 26px;
   width: 26px;
   background: url(./src/RadioButton-CheckBox/RadioSVG1.svg);
 }
-.radiobutton:hover {
+.radio__button__label-img:hover {
   cursor: pointer;
 }
-.radiobutton_m {
+@media (max-width: 1023px) {
+  .radio__button__label-img {
+    height: 20px;
+    width: 20px;
+    background: url(./src/RadioButton-CheckBox/RadioSVG1M.svg);
+  }
+}
+.radio__button__label-img_m {
   height: 20px;
   width: 20px;
   background: url(./src/RadioButton-CheckBox/RadioSVG1M.svg);
 }
 
-.radio-btn {
+.radio__button {
   margin: 0;
   display: none;
 }
-.radio-btn:checked + label {
+.radio__button:checked + label {
   background: url(./src/RadioButton-CheckBox/RadioSVG2.svg);
 }
-.radio-btn__m {
+@media (max-width: 1023px) {
+  .radio__button {
+    display: none;
+    margin: 0;
+  }
+  .radio__button:checked + label {
+    background: url(./src/RadioButton-CheckBox/RadioSVG2M.svg);
+  }
+}
+.radio__button__m {
   display: none;
   margin: 0;
 }
-.radio-btn__m:checked + label {
+.radio__button__m:checked + label {
   background: url(./src/RadioButton-CheckBox/RadioSVG2M.svg);
 }
 
-.radio-btn-container {
+.radio__container {
   display: flex;
   flex-direction: row;
   text-align: center;
   gap: 10px;
 }
 
-.checkboxcomp {
+.form__accept-licenz__checkbox__label {
   display: inline-block;
   height: 26px;
   width: 26px;
   background: url(./src/RadioButton-CheckBox/CheckboxSVG1.svg);
 }
-.checkboxcomp:hover {
+.form__accept-licenz__checkbox__label:hover {
   cursor: pointer;
 }
 .checkboxcomp_m {
@@ -1237,32 +1249,35 @@ h3 {
 }
 
 @media (max-width: 1023px) {
-  .accept-licenze__input {
-    display: none;
+  .form__accept-licenz__checkbox__label {
+    height: 20px;
+    min-width: 20px;
+    background: url(/src/RadioButton-CheckBox/CheckboxSVG1M.svg);
+  }
+  .form__accept-licenz__checkbox:checked + label {
+    background: url(./src/RadioButton-CheckBox/CheckboxSVG2M.svg);
+    height: 20px;
+    min-width: 20px;
   }
 }
 @media (min-width: 1023px) {
-  .accept-licenze__input_m {
-    display: none;
+  .form__accept-licenz__checkbox:checked + label {
+    background: url(./src/RadioButton-CheckBox/CheckboxSVG2.svg);
   }
 }
-
-.accept-licenz__checkbox {
+.form__accept-licenz__checkbox {
   display: none;
   margin: 0;
 }
-.accept-licenz__checkbox:checked + label {
-  background: url(./src/RadioButton-CheckBox/CheckboxSVG2.svg);
-}
-.accept-licenz__checkbox_m {
+.form__accept-licenz__checkbox_m {
   margin: 0;
   display: none;
 }
-.accept-licenz__checkbox_m:checked + label {
+.form__accept-licenz__checkbox_m:checked + label {
   background: url(./src/RadioButton-CheckBox/CheckboxSVG2M.svg);
 }
 
-.accept-licenz {
+.form__accept-licenz {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1272,12 +1287,12 @@ h3 {
   color: #a6a6a6;
 }
 @media (min-width: 599px) {
-  .accept-licenz {
+  .form__accept-licenz {
     width: 389px;
   }
 }
 @media (min-width: 1023px) {
-  .accept-licenz {
+  .form__accept-licenz {
     width: auto;
   }
 }
