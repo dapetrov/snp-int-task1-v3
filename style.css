@@ -1148,17 +1148,17 @@ h3 {
 }
 
 @media (max-width: 599px) {
-  .form__accept-all-buttons {
+  .form__accept-buttons {
     width: 248px;
   }
 }
 @media (min-width: 1800px) {
-  .form__accept-all-buttons {
+  .form__accept-buttons {
     width: 1030px;
   }
 }
 
-.form-input-radio-button {
+.radio {
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -1167,11 +1167,11 @@ h3 {
   margin-top: 9px;
 }
 @media (max-width: 1023px) {
-  .form-input-radio-button {
+  .radio {
     display: none;
   }
 }
-.form-input-radio-button_m {
+.radio_m {
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -1179,7 +1179,7 @@ h3 {
   gap: 30px;
 }
 @media (min-width: 1023px) {
-  .form-input-radio-button_m {
+  .radio_m {
     display: none;
   }
 }
