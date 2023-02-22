@@ -1313,11 +1313,11 @@ h3 {
 }
 
 .accept-buttons {
-  margin-top: 30px;
   display: flex;
   flex-direction: row;
+  align-self: flex-start;
+  margin-top: 30px;
   gap: 10px;
-  align-items: center;
   padding: 0px;
   width: 100%;
 }
@@ -1333,17 +1333,17 @@ h3 {
   align-items: flex-start;
 }
 @media (min-width: 1023px) {
-  .accept-buttons__wrapper {
+  .accept-buttons {
     margin-right: 298px;
   }
 }
 @media (min-width: 1800px) {
-  .accept-buttons__wrapper {
+  .accept-buttons {
     margin-right: 530px;
   }
 }
 
-.accept-button__yes {
+.accept-buttons__yes {
   width: 134px;
   height: 47px;
   text-align: center;
@@ -1354,22 +1354,22 @@ h3 {
   transition: 0.2s linear;
 }
 @media (min-width: 1023px) {
-  .accept-button__yes {
+  .accept-buttons__yes {
     width: 235px;
     height: 58px;
   }
 }
 @media (min-width: 1023px) {
-  .accept-button__yes:hover {
+  .accept-buttons__yes:hover {
     cursor: pointer;
     background-color: #3b7e7b;
   }
-  .accept-button__yes:active {
+  .accept-buttons__yes:active {
     background-color: #627f7e;
   }
 }
 
-.accept-button__no {
+.accept-buttons__no {
   width: 134px;
   height: 47px;
   text-align: center;
@@ -1379,17 +1379,17 @@ h3 {
   transition: 0.2s linear;
 }
 @media (min-width: 1023px) {
-  .accept-button__no {
+  .accept-buttons__no {
     width: 235px;
     height: 58px;
   }
 }
 @media (min-width: 1023px) {
-  .accept-button__no:hover {
+  .accept-buttons__no:hover {
     cursor: pointer;
     background-color: #f1f3f2;
   }
-  .accept-button__no:active {
+  .accept-buttons__no:active {
     background-color: #d9dfdb;
   }
 }
