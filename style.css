@@ -1394,56 +1394,56 @@ h3 {
   }
 }
 
-.reviews-container {
+.riveiws {
   background-color: #f9f7f4;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.reviews-container__header {
+.riveiws__header {
   text-align: center;
 }
 @media (min-width: 1800px) {
-  .reviews-container__header {
+  .riveiws__header {
     width: 529px;
   }
 }
 
-.reviews-container__text_360 {
+.riveiws__text_360 {
   margin: 20px 0 50px 0;
   text-align: center;
   color: #a6a6a6;
 }
 @media (min-width: 1023px) {
-  .reviews-container__text_360 {
+  .riveiws__text_360 {
     display: none;
   }
 }
-.reviews-container__text_1024 {
+.riveiws__text_1024 {
   margin: 30px 0 100px 0;
   color: #a6a6a6;
   text-align: center;
 }
 @media (max-width: 1023px) {
-  .reviews-container__text_1024 {
+  .riveiws__text_1024 {
     display: none;
   }
 }
 
 @media (min-width: 1023px) {
-  .review-container__cards-review__wrapper {
+  .rewiew-cards {
     display: flex;
     flex-direction: row;
     gap: 18px;
   }
 }
 @media (min-width: 1800px) {
-  .review-container__cards-review__wrapper {
+  .rewiew-cards {
     gap: 30px;
   }
 }
 
-.reviews-container__cards-review__one {
+.review-card__one {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1453,21 +1453,21 @@ h3 {
   width: 318px;
 }
 @media (min-width: 599px) {
-  .reviews-container__cards-review__one {
+  .review-card__one {
     width: 450px;
     height: 450px;
     border-radius: 50px;
   }
 }
 @media (min-width: 1023px) {
-  .reviews-container__cards-review__one {
+  .review-card__one {
     width: 450px;
     height: 841px;
     border-radius: 50px;
   }
 }
 @media (min-width: 1800px) {
-  .reviews-container__cards-review__one {
+  .review-card__one {
     width: 570px;
     height: 673px;
     border-radius: 50px;
@@ -1500,7 +1500,7 @@ h3 {
   background-size: cover;
 }
 
-.reviews-container__cards-review__autor {
+.riveiw-cards__autor {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -1508,46 +1508,23 @@ h3 {
   padding: 40px 0px 0px;
 }
 @media (min-width: 599px) {
-  .reviews-container__cards-review__autor {
+  .riveiw-cards__autor {
     padding: 50px 0 0;
   }
 }
 @media (min-width: 1023px) {
-  .reviews-container__cards-review__autor {
+  .riveiw-cards__autor {
     padding: 378px 0 0;
   }
 }
 @media (min-width: 1800px) {
-  .reviews-container__cards-review__autor {
+  .riveiw-cards__autor {
     padding: 266px 0 0;
   }
 }
 @media (min-width: 1023px) {
-  .reviews-container__cards-review__autor__Two {
+  .riveiw-cards__autor__Two {
     padding: 70px 0 0;
-  }
-}
-
-@media (min-width: 1023px) {
-  .reviews-container__cards-review__text_360 {
-    display: none;
-  }
-}
-
-@media (max-width: 1023px) {
-  .reviews-container__cards-review__text_1024 {
-    display: none;
-  }
-}
-@media (min-width: 1800px) {
-  .reviews-container__cards-review__text_1024 {
-    display: none;
-  }
-}
-
-@media (max-width: 1799px) {
-  .reviews-container__cards-review__text_1920 {
-    display: none;
   }
 }
 
@@ -1559,7 +1536,7 @@ h3 {
   gap: 8px;
 }
 
-.reviews-container__cards-review__two {
+.review-card__two {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1568,21 +1545,21 @@ h3 {
   width: 318px;
 }
 @media (min-width: 599px) {
-  .reviews-container__cards-review__two {
+  .review-card__two {
     width: 450px;
     height: 610px;
     border-radius: 50px;
   }
 }
 @media (min-width: 1023px) {
-  .reviews-container__cards-review__two {
+  .review-card__two {
     width: 450px;
     height: 841px;
     border-radius: 50px;
   }
 }
 @media (min-width: 1800px) {
-  .reviews-container__cards-review__two {
+  .review-card__two {
     width: 570px;
     height: 673px;
     border-radius: 50px;
