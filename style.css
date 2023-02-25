@@ -1592,7 +1592,7 @@ h3 {
   }
 }
 
-.travel-photos-container {
+.travel-photos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1600,12 +1600,12 @@ h3 {
   padding-top: 50px;
 }
 @media (min-width: 1023px) {
-  .travel-photos-container {
+  .travel-photos {
     padding-top: 100px;
   }
 }
 
-.travel-photos-container__row-one {
+.ul-one {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1614,16 +1614,16 @@ h3 {
   list-style-type: none;
 }
 @media (min-width: 1023px) {
-  .travel-photos-container__row-one {
+  .ul-one {
     gap: 20px;
   }
 }
 @media (min-width: 1800px) {
-  .travel-photos-container__row-one {
+  .ul-one {
     gap: 30px;
   }
 }
-.row-one {
+.ul-one__li-one {
   width: 150px;
   height: 110px;
   border-radius: 20px;
@@ -1631,7 +1631,7 @@ h3 {
   background-position: center center !important;
 }
 @media (min-width: 599px) {
-  .row-one {
+  .ul-one__li-one {
     width: 259px;
     height: 220px;
     border-radius: 50px;
@@ -1640,7 +1640,7 @@ h3 {
   }
 }
 @media (min-width: 1023px) {
-  .row-one {
+  .ul-one__li-one {
     width: 314.67px;
     height: 300px;
     border-radius: 50px;
@@ -1649,13 +1649,13 @@ h3 {
   }
 }
 @media (min-width: 1885px) {
-  .row-one {
+  .ul-one__li-one {
     width: 442.5px;
     height: 300px;
   }
 }
 
-.travel-photos-container__row-two {
+.ul-two {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1664,16 +1664,16 @@ h3 {
   list-style-type: none;
 }
 @media (min-width: 1023px) {
-  .travel-photos-container__row-two {
+  .ul-two {
     gap: 20px;
   }
 }
 @media (min-width: 1800px) {
-  .travel-photos-container__row-two {
+  .ul-two {
     gap: 30px;
   }
 }
-.two-row-photo_all {
+.ul-two__li-two {
   width: 99.33px;
   height: 110px;
   border-radius: 20px;
@@ -1681,7 +1681,7 @@ h3 {
   background-position: center center !important;
 }
 @media (min-width: 599px) {
-  .two-row-photo_all {
+  .ul-two__li-two {
     width: 180px;
     height: 180px;
     border-radius: 50px;
@@ -1690,7 +1690,7 @@ h3 {
   }
 }
 @media (min-width: 1023px) {
-  .two-row-photo_all {
+  .ul-two__li-two {
     width: 231px;
     height: 301px;
     border-radius: 50px;
@@ -1699,7 +1699,7 @@ h3 {
   }
 }
 @media (min-width: 1885px) {
-  .two-row-photo_all {
+  .ul-two__li-two {
     width: 349.16px;
     height: 301px;
     background-size: cover !important;
