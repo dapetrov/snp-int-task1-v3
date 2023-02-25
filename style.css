@@ -1488,11 +1488,11 @@ h3 {
   }
 }
 
-.autor__tour {
+.riveiw-cards__autor-text__tour {
   color: #a6a6a6;
 }
 
-.autor__logo-one {
+.riveiw-cards__autor__logo-one {
   height: 75px;
   width: 75px;
   background-image: url(/src/ReviewsPhotos/reviewphoto-1.png);
@@ -1523,12 +1523,12 @@ h3 {
   }
 }
 @media (min-width: 1023px) {
-  .riveiw-cards__autor__Two {
+  .riveiw-cards__autor__two {
     padding: 70px 0 0;
   }
 }
 
-.autor {
+.riveiw-cards__autor-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1566,7 +1566,7 @@ h3 {
   }
 }
 
-.autor__logo__two {
+.riveiw-cards__autor__logo-two {
   height: 75px;
   width: 75px;
   background-image: url(/src/ReviewsPhotos/reviewphoto-2.png);
