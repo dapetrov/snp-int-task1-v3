@@ -1510,7 +1510,7 @@ h3 {
   }
 }
 @media (min-width: 1023px) {
-  .riveiw-cards__autor__two {
+  .riveiw-cards__autor_two {
     padding: 70px 0 0;
   }
 }
@@ -1849,10 +1849,6 @@ h3 {
   }
 }
 
-.Firststory__more {
-  color: white;
-}
-
 .card-story {
   width: 318px;
   height: 455px;
@@ -1875,12 +1871,12 @@ h3 {
   }
 }
 @media (min-width: 1023px) {
-  .card-story:hover .background-container-story {
+  .card-story:hover .card-story__bg-cont {
     transition: all 0.3s ease;
     transform: scale(1.2);
   }
   .card-story:hover
-    .story-card-name-text-container
+    .card-story__text-cont
     > .story__more-first
     > .story__more__text-wr1__wrap {
     cursor: pointer;
@@ -1889,7 +1885,7 @@ h3 {
     cursor: pointer;
   }
   .card-story:hover
-    .story-card-name-text-container
+    .card-story__text-cont
     > .story__more-first
     > .story__more__text-wr1__wrap
     :active {
@@ -1907,7 +1903,7 @@ h3 {
 
 @media (min-width: 1023px) {
   .card-story__2:hover
-    > .story-card-name-text-container
+    > .card-story__text-cont
     > .story__more
     > .story__more__text-wr1__wrap {
     transition: 0.5s linear;
@@ -1915,7 +1911,7 @@ h3 {
     cursor: pointer;
   }
   .card-story__2:hover
-    > .story-card-name-text-container
+    > .card-story__text-cont
     > .story__more
     > .story__more__text-wr1__wrap
     :active {
@@ -1925,7 +1921,7 @@ h3 {
 
 @media (min-width: 1023px) {
   .card-story__3:hover
-    > .story-card-name-text-container
+    > .card-story__text-cont
     > .story__more
     > .story__more__text-wr1__wrap {
     transition: 0.5s linear;
@@ -1933,7 +1929,7 @@ h3 {
     cursor: pointer;
   }
   .card-story__3:hover
-    > .story-card-name-text-container
+    > .card-story__text-cont
     > .story__more
     > .story__more__text-wr1__wrap
     :active {
@@ -1946,11 +1942,11 @@ h3 {
   background: rgba(0, 0, 0, 0);
   border: none;
 }
-.background-container-story {
+.card-story__bg-cont {
   transition: all 0.3s ease;
 }
 
-.background-container-story1 {
+.card-story__bg-cont1 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1968,12 +1964,12 @@ h3 {
   background-size: cover;
 }
 @media (max-width: 1023px) {
-  .background-container-story1 {
+  .card-story__bg-cont1 {
     background: none;
   }
 }
 
-.background-container-story2 {
+.card-story__bg-cont2 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1991,12 +1987,12 @@ h3 {
   background-size: cover;
 }
 @media (max-width: 1023px) {
-  .background-container-story2 {
+  .card-story__bg-cont2 {
     background: none;
   }
 }
 
-.background-container-story3 {
+.card-story__bg-cont3 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -2014,7 +2010,7 @@ h3 {
   background-size: cover;
 }
 @media (max-width: 1023px) {
-  .background-container-story3 {
+  .card-story__bg-cont3 {
     background: none;
   }
 }
@@ -2024,22 +2020,37 @@ h3 {
     margin-top: 37px;
   }
 }
-.story__text_360 {
-  color: white;
+.card-story__text-cont {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 @media (min-width: 1023px) {
-  .story__text_360 {
-    display: none;
+  .card-story__text-cont {
+    padding-left: 60px;
+    padding-top: 60px;
   }
 }
-.story__text_360_1 {
-  margin-top: 20px;
+.card-story__text-cont__t-one {
+  color: white;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.card-story__text-cont__t-two {
   color: white;
   width: 263px;
 }
 @media (min-width: 1023px) {
-  .story__text_360_1 {
-    display: none;
+  .card-story__text-cont__t-one {
+    width: 100%;
+    margin-bottom: 37px;
+  }
+  .card-story__text-cont__t-two {
+    margin-top: 20px;
+    width: 544px;
   }
 }
 .story__text_1024 {
@@ -2048,6 +2059,7 @@ h3 {
 }
 @media (max-width: 1023px) {
   .story__text_1024 {
+    position: absolute;
     display: none;
   }
 }
@@ -2094,19 +2106,19 @@ h3 {
 }
 @media (min-width: 599px) {
   .story__more {
-    margin: 220px 0 0 20px;
+    margin: 220px 0 0 0;
     gap: 16px;
   }
 }
 @media (min-width: 1023px) {
   .story__more {
-    margin: 200px 0 0 40px;
+    margin: 200px 0 0 0;
     gap: 16px;
   }
 }
 @media (min-width: 1800px) {
   .story__more {
-    margin: 200px 0 0 40px;
+    margin: 200px 0 0 0;
     gap: 16px;
   }
 }
@@ -2121,7 +2133,7 @@ h3 {
 }
 @media (min-width: 599px) {
   .story__more-first {
-    margin: 130px 0 0 20px;
+    margin: 130px 0 0 0;
     gap: 16px;
   }
 }
@@ -2129,12 +2141,11 @@ h3 {
   .story__more-first {
     margin: 90px 0 0 0;
     gap: 16px;
-    margin-left: 40px;
   }
 }
 @media (min-width: 1800px) {
   .story__more-first {
-    margin: 90px 0 0 40px;
+    margin: 90px 0 0 0;
   }
 }
 
@@ -2245,18 +2256,12 @@ h3 {
   }
 }
 
-.story__more__text-a {
+.story-list {
   color: white;
 }
-@media (min-width: 1023px) {
-  .story__more__text-a {
-    margin-left: 60px;
-  }
+.story-list__ul {
 }
-@media (min-width: 1800px) {
-  .story__more__text-a {
-    margin-left: 60px;
-  }
+.story-list__ul__li {
 }
 .story__more__text-B {
   color: white;
