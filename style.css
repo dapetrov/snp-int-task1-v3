@@ -203,7 +203,7 @@ h3 {
     color: #1b1f2b;
   }
 }
-
+/* WELCOME PAGE */ /* WELCOME PAGE */ /* WELCOME PAGE */
 .welcome-page {
   background: linear-gradient(
       180deg,
@@ -386,6 +386,8 @@ h3 {
     color: black;
   }
 }
+
+/* CHOOSE TOUR */ /* CHOOSE TOUR */ /* CHOOSE TOUR */
 
 .header-h2 {
   text-align: center;
@@ -836,7 +838,7 @@ h3 {
   background-position: center;
   margin-bottom: 0px;
 }
-
+/* COLLECT TOUR*/ /* COLLECT TOUR*/ /* COLLECT TOUR*/
 .section-description {
   margin: 20px 0 40px 0;
   color: #a6a6a6;
@@ -1263,7 +1265,7 @@ h3 {
     background-color: #d9dfdb;
   }
 }
-
+/* REVIEVS*/ /* REVIEVS*/ /* REVIEVS*/
 .riveiws {
   background-color: #f9f7f4;
   display: flex;
@@ -1414,6 +1416,8 @@ h3 {
   border-radius: 100px;
   background-size: cover;
 }
+
+/* TRAVEL PHOTO */ /* TRAVEL PHOTO */ /* TRAVEL PHOTO */
 
 .travel-photo {
   background-color: #f9f7f4;
@@ -1874,6 +1878,7 @@ h3 {
     gap: 16px;
   }
 }
+
 .story__more_first {
   display: flex;
   flex-direction: row;
@@ -2067,7 +2072,7 @@ h3 {
     background: none;
   }
 }
-
+/* ENDING */ /* ENDING */ /* ENDING */
 .ending {
   background-color: #f9f7f4;
   display: flex;
@@ -2133,7 +2138,7 @@ h3 {
   color: #a6a6a6;
   padding-bottom: 75px;
 }
-
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
 .footer {
   justify-content: center;
   align-items: center;
