@@ -34,7 +34,7 @@ p {
   margin: 0;
 }
 
-h1 {
+.font_h1 {
   font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
@@ -46,7 +46,7 @@ h1 {
   margin: 0;
 }
 @media (min-width: 599px) {
-  h1 {
+  .font_h1 {
     font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
@@ -57,7 +57,7 @@ h1 {
   }
 }
 @media (min-width: 1023px) {
-  h1 {
+  .font_h1 {
     font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
@@ -68,7 +68,7 @@ h1 {
   }
 }
 
-h2 {
+.font_h2 {
   font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
@@ -80,7 +80,7 @@ h2 {
   margin: 0;
 }
 @media (min-width: 599px) {
-  h2 {
+  .font_h2 {
     font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
@@ -91,7 +91,7 @@ h2 {
   }
 }
 @media (min-width: 1023px) {
-  h2 {
+  .font_h2 {
     font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
@@ -102,7 +102,7 @@ h2 {
   }
 }
 
-h3 {
+.font_h3 {
   font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
@@ -113,7 +113,7 @@ h3 {
   margin: 0;
 }
 @media (min-width: 1023px) {
-  h3 {
+  .font_h3 {
     font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 500;
@@ -422,10 +422,19 @@ h3 {
   margin-top: 30px;
   text-align: center;
   padding: 0;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 599px) {
+  .tour-type {
+    width: 350px;
+  }
 }
 @media (min-width: 1023px) {
   .tour-type {
     margin-top: 35px;
+    width: 100%;
   }
 }
 @media (min-width: 1800px) {
@@ -495,6 +504,11 @@ h3 {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+}
+@media (min-width: 599px) {
+  .cards-tours {
+    width: 500px;
+  }
 }
 @media (min-width: 1023px) {
   .cards-tours {
@@ -922,12 +936,23 @@ h3 {
   padding: 20px 20px 40px;
   border-radius: 30px;
 }
+
+@media (min-width: 610px) {
+  .form {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 1023px) {
   .form {
     padding: 60px 60px 60px;
     margin: 0px 32px;
+    width: auto;
   }
 }
+
 @media (min-width: 1800px) {
   .form {
     padding: 70px 70px 70px;
