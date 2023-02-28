@@ -316,11 +316,11 @@ h3 {
 .header__text-container__text-one {
   color: white;
   margin: 84.5px 0 0 0;
-  width: 100%;
+  width: 400px;
 }
 @media (min-width: 599px) {
   .header__text-container__text-one {
-    margin: 64.5px 0 0 0;
+    margin: 44.5px 0 0 0;
   }
 }
 @media (min-width: 1023px) {
@@ -339,6 +339,7 @@ h3 {
   color: white;
   margin: 40px 25px 0 25px;
   text-align: center;
+  width: 310px;
 }
 @media (min-width: 1023px) {
   .header__text-container__text-two {
@@ -349,6 +350,25 @@ h3 {
 @media (min-width: 1800px) {
   .header__text-container__text-two {
     width: 562px;
+  }
+}
+.phone-num {
+  margin: 32.5px 21px 0 0;
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 1023px) {
+  .phone-num {
+    margin: 30px 57px 30px 0;
+    height: 28px;
+  }
+  .phone-num:hover {
+    border-bottom: 1px solid;
+  }
+}
+@media (min-width: 1800px) {
+  .phone-num {
+    margin: 30px 376px 30px 0;
   }
 }
 
@@ -367,6 +387,13 @@ h3 {
   transition: 0.2s linear;
   border: none;
   outline: 0;
+}
+@media (min-width: 599px) {
+  .search-tour-button {
+    width: 118px;
+    height: 34px;
+    margin-top: 40px;
+  }
 }
 @media (min-width: 1023px) {
   .search-tour-button {
@@ -460,20 +487,28 @@ h3 {
 }
 
 .cards-tours {
-  display: flex;
+  display: block;
   flex-direction: row;
   gap: 30px;
   padding: 0px;
   padding: 50px 0 0 0;
   display: block;
   color: white;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (min-width: 1023px) {
   .cards-tours {
     padding: 100px 0 0 0;
+    width: 981px;
   }
 }
-
+@media (min-width: 1800px) {
+  .cards-tours {
+    width: 1400px;
+  }
+}
 .card-tour {
   display: inline-block;
   margin-top: 18px;
@@ -687,6 +722,7 @@ h3 {
 .card-tour__text-cont__name {
   color: white;
   margin: 0;
+  text-align: start;
 }
 @media (min-width: 1800px) {
   .card-tour__text-cont__name {
@@ -784,6 +820,16 @@ h3 {
   background-size: cover;
   background-position: center bottom;
 }
+@media (min-width: 1023px) {
+  .card-tour_2 {
+    margin-left: 18px;
+  }
+}
+@media (min-width: 1800px) {
+  .card-tour_2 {
+    margin-left: 30px;
+  }
+}
 
 .card-tour_3 {
   background: linear-gradient(
@@ -795,6 +841,11 @@ h3 {
     url(/src/Cards/card_photo-3.png);
   background-size: cover;
   background-position: center;
+}
+@media (min-width: 1800px) {
+  .card-tour_3 {
+    margin-left: 30px;
+  }
 }
 
 .card-tour_4 {
@@ -808,6 +859,16 @@ h3 {
   background-size: cover;
   background-position: center;
 }
+@media (min-width: 1023px) {
+  .card-tour_4 {
+    margin-left: 18px;
+  }
+}
+@media (min-width: 1800px) {
+  .card-tour_4 {
+    margin-left: 0px;
+  }
+}
 
 .card-tour_5 {
   background: linear-gradient(
@@ -820,9 +881,9 @@ h3 {
   background-size: cover;
   background-position: center;
 }
-@media (min-width: 1023px) {
+@media (min-width: 1800px) {
   .card-tour_5 {
-    margin: 0;
+    margin-left: 30px;
   }
 }
 
@@ -837,6 +898,16 @@ h3 {
   background-size: cover;
   background-position: center;
   margin-bottom: 0px;
+}
+@media (min-width: 1023px) {
+  .card-tour_6 {
+    margin-left: 18px;
+  }
+}
+@media (min-width: 1800px) {
+  .card-tour_6 {
+    margin-left: 30px;
+  }
 }
 /* COLLECT TOUR*/ /* COLLECT TOUR*/ /* COLLECT TOUR*/
 .section-description {
@@ -924,7 +995,7 @@ h3 {
   transition: 0.2s linear;
   border: 1px solid #f4f0e9;
   border-radius: 10px;
-  background: #f9f7f4 !important;
+  background: #f9f7f4;
   outline: none;
   height: 43px;
   width: 278px;
@@ -938,7 +1009,7 @@ h3 {
 }
 .form__input:focus {
   border: 1px #a6a6a6 solid;
-  background-color: #f4f0e9 !important;
+  background-color: #f4f0e9;
 }
 .form__input ::placeholder {
   color: #cccccc;
@@ -958,7 +1029,7 @@ h3 {
 @media (min-width: 1023px) {
   .form__input:hover {
     cursor: pointer;
-    background-color: #f4f0e9 !important;
+    background-color: #f4f0e9;
   }
 }
 @media (min-width: 1800px) {
@@ -973,7 +1044,7 @@ h3 {
   transition: 0.2s linear;
   border: 1px solid #f4f0e9;
   border-radius: 10px;
-  background: #f9f7f4 !important;
+  background: #f9f7f4;
   outline: none;
   height: 43px;
   width: 278px;
@@ -988,7 +1059,7 @@ h3 {
 }
 .form__select:focus {
   border: #a6a6a6 1px solid;
-  background-color: #f4f0e9 !important;
+  background-color: #f4f0e9;
 }
 @media (min-width: 599px) {
   .form__select {
@@ -1005,7 +1076,10 @@ h3 {
 @media (min-width: 1023px) {
   .form__select:hover {
     cursor: pointer;
-    background-color: #f4f0e9 !important;
+    background-color: #f4f0e9;
+  }
+  .form__select:focus {
+    background-color: #f4f0e9;
   }
 }
 @media (min-width: 1800px) {
@@ -1036,7 +1110,7 @@ h3 {
 }
 .form__textarea:focus {
   border: 1px solid #a6a6a6;
-  background-color: #f4f0e9 !important;
+  background-color: #f4f0e9;
 }
 @media (min-width: 599px) {
   .form__textarea {
@@ -1053,7 +1127,7 @@ h3 {
 @media (min-width: 1023px) {
   .form__textarea:hover {
     cursor: pointer;
-    background-color: #f4f0e9 !important;
+    background-color: #f4f0e9;
   }
 }
 @media (min-width: 1800px) {
@@ -1176,7 +1250,7 @@ h3 {
 }
 
 .a__licenz {
-  color: #1b1f2b !important;
+  color: #1b1f2b;
   text-decoration: none;
 }
 @media (min-width: 1023px) {
@@ -1185,7 +1259,7 @@ h3 {
     border-bottom: 2px solid;
   }
   .a__licenz:active {
-    color: #286562 !important;
+    color: #286562;
     border-bottom: 2px solid #286562;
   }
 }
@@ -1458,16 +1532,16 @@ h3 {
   width: 150px;
   height: 110px;
   border-radius: 20px;
-  background-size: cover !important;
-  background-position: center center !important;
+  background-size: cover;
+  background-position: center center;
 }
 @media (min-width: 599px) {
   .ul-one__li-one {
     width: 259px;
     height: 220px;
     border-radius: 50px;
-    background-size: cover !important;
-    background-position: center center !important;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 1023px) {
@@ -1475,8 +1549,8 @@ h3 {
     width: 314.67px;
     height: 300px;
     border-radius: 50px;
-    background-size: cover !important;
-    background-position: center center !important;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 1885px) {
@@ -1508,16 +1582,16 @@ h3 {
   width: 99.33px;
   height: 110px;
   border-radius: 20px;
-  background-size: cover !important;
-  background-position: center center !important;
+  background-size: cover;
+  background-position: center center;
 }
 @media (min-width: 599px) {
   .ul-two__li-two {
     width: 180px;
     height: 180px;
     border-radius: 50px;
-    background-size: cover !important;
-    background-position: center center !important;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 1023px) {
@@ -1525,15 +1599,15 @@ h3 {
     width: 231px;
     height: 301px;
     border-radius: 50px;
-    background-size: cover !important;
-    background-position: center center !important;
+    background-size: cover;
+    background-position: center center;
   }
 }
 @media (min-width: 1885px) {
   .ul-two__li-two {
     width: 349.16px;
     height: 301px;
-    background-size: cover !important;
+    background-size: cover;
     background-position: center center !important;
   }
 }
