@@ -35,7 +35,7 @@ p {
 }
 
 h1 {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -47,7 +47,7 @@ h1 {
 }
 @media (min-width: 599px) {
   h1 {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -58,8 +58,7 @@ h1 {
 }
 @media (min-width: 1023px) {
   h1 {
-    font-family: "Arial";
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
@@ -70,7 +69,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -82,7 +81,7 @@ h2 {
 }
 @media (min-width: 599px) {
   h2 {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
     font-size: 45 px;
@@ -93,7 +92,7 @@ h2 {
 }
 @media (min-width: 1023px) {
   h2 {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
     font-size: 59px;
@@ -104,7 +103,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
@@ -115,7 +114,7 @@ h3 {
 }
 @media (min-width: 1023px) {
   h3 {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
@@ -125,7 +124,7 @@ h3 {
 }
 
 .p-big {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -134,7 +133,7 @@ h3 {
 }
 @media (min-width: 599px) {
   .p-big {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
@@ -144,7 +143,7 @@ h3 {
 }
 @media (min-width: 1023px) {
   .p-big {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
@@ -154,8 +153,7 @@ h3 {
 }
 
 .p-normal {
-  font-family: "Arial";
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -164,7 +162,7 @@ h3 {
 }
 @media (min-width: 599px) {
   .p-normal {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -174,7 +172,7 @@ h3 {
 }
 @media (min-width: 1023px) {
   .p-normal {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -184,7 +182,7 @@ h3 {
 }
 
 .p-small {
-  font-family: "Roboto";
+  font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -194,7 +192,7 @@ h3 {
 }
 @media (min-width: 1023px) {
   .p-small {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
