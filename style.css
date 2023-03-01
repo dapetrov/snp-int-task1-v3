@@ -512,6 +512,7 @@ p {
   border-bottom: #efa501 solid 2px;
   color: #efa501;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .cards-tours {
