@@ -1,2 +1,2 @@
 # snp-int-tusk1-v3
-snp-int-tusk1-ver3
+https://snp-int-task1-v3.vercel.app/
