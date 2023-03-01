@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  padding: 0 21px;
+  /* padding: 0 21px; */
   background-color: #f9f7f4;
 }
 
@@ -87,7 +87,6 @@ p {
     font-size: 45 px;
     line-height: 124%;
     color: #1b1f2b;
-    padding-top: 135px;
   }
 }
 @media (min-width: 1023px) {
@@ -417,9 +416,23 @@ p {
 .header-h2 {
   text-align: center;
 }
-
+@media (max-width: 1023px) {
+  .header-h2 {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1023px) {
+  .header-h2 {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .tour-type {
   margin-top: 30px;
+  margin-bottom: 0;
   text-align: center;
   padding: 0;
   width: 300px;
@@ -927,6 +940,28 @@ p {
   color: #a6a6a6;
   text-align: center;
 }
+@media (max-width: 599px) {
+  .section-description {
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1023px) {
+  .section-description {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1023px) {
+  .section-description {
+    margin: 30px 0 100px 0;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .form {
   background-color: white;
@@ -934,6 +969,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 20px 20px 40px;
+  margin: 0 21px;
   border-radius: 30px;
 }
 
@@ -948,7 +984,7 @@ p {
 @media (min-width: 1023px) {
   .form {
     padding: 60px 60px 60px;
-    margin: 0px 32px;
+    margin: 0px 53px;
     width: auto;
   }
 }
@@ -956,7 +992,6 @@ p {
 @media (min-width: 1800px) {
   .form {
     padding: 70px 70px 70px;
-    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -1369,12 +1404,15 @@ p {
   flex-direction: column;
   align-items: center;
 }
-
+.rewiew-cards {
+  padding-top: 10px;
+}
 @media (min-width: 1023px) {
   .rewiew-cards {
     display: flex;
     flex-direction: row;
     gap: 18px;
+    padding-top: 0px;
   }
 }
 @media (min-width: 1800px) {
@@ -1525,11 +1563,11 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 18px;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 @media (min-width: 1023px) {
   .travel-photos {
-    padding-top: 100px;
+    padding-top: 0px;
   }
 }
 
@@ -1540,6 +1578,7 @@ p {
   padding: 0px;
   gap: 18px;
   list-style-type: none;
+  margin: 0;
 }
 @media (min-width: 1023px) {
   .ul-one {
@@ -1588,6 +1627,7 @@ p {
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
+  margin: 0;
   gap: 10px;
   list-style-type: none;
 }
@@ -1937,13 +1977,13 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  margin: 50px 0 0 0;
+  margin: 0;
+  padding-top: 10px;
   gap: 18px;
   color: white;
 }
 @media (min-width: 1023px) {
   .story-tours {
-    margin: 100px 0 0 0;
     gap: 50px;
   }
 }
