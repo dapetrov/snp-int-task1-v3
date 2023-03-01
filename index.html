@@ -28,7 +28,7 @@
   <body>
     <header class="welcome-page">
       <div class="header" id="header">
-        <div class="header__logo" id="header-logo"></div>
+        <a class="header__logo" id="header-logo" href=""></a>
         <nav class="navigation p-normal">
           <ul class="navigation__ul">
             <li class="navigation__li">
@@ -64,20 +64,22 @@
       <section class="choose-tour">
         <h2 class="header-h2 font_h2" id="Tours">Выбери свой тур</h2>
         <ul class="tour-type p-big">
-          <li class="type-tour__li" id="PONE">
-            <button class="type-tour__li__button">Популярные</button>
+          <li class="type-tour__li">
+            <button class="type-tour__li__button" id="PONE">Популярные</button>
           </li>
-          <li class="type-tour__li" id="PTWO">
-            <button class="type-tour__li__button">Авторские</button>
+          <li class="type-tour__li">
+            <button class="type-tour__li__button" id="PTWO">Авторские</button>
           </li>
-          <li class="type-tour__li" id="PTHREE">
-            <button class="type-tour__li__button">Походы</button>
+          <li class="type-tour__li">
+            <button class="type-tour__li__button" id="PTHREE">Походы</button>
           </li>
-          <li class="type-tour__li" id="PFOUR">
-            <button class="type-tour__li__button">Сплавы</button>
+          <li class="type-tour__li">
+            <button class="type-tour__li__button" id="PFOUR">Сплавы</button>
           </li>
-          <li class="type-tour__li" id="PFIVE">
-            <button class="type-tour__li__button">Велопрогулки</button>
+          <li class="type-tour__li">
+            <button class="type-tour__li__button" id="PFIVE">
+              Велопрогулки
+            </button>
           </li>
         </ul>
         <div class="cards-tours">
@@ -173,14 +175,17 @@
               Имя
               <input
                 type="text"
-                placeholder="Введите Ваше имя"
-                class="form__input"
+                placeholder="Введите ваше имя"
+                class="form__input p-normal"
                 pattern="[A-Za-zА-Яа-яЁё]{3,16}"
                 required="required"
             /></label>
             <div>
               <p>Направление</p>
-              <select class="form__select" placeholder="Куда хотите ехать?">
+              <select
+                class="form__select p-normal"
+                placeholder="Куда хотите ехать?"
+              >
                 <option value="1">Куда хотите ехать?</option>
                 <option value="2">Горы</option>
                 <option value="3">Горы</option>
@@ -193,7 +198,7 @@
               <input
                 type="text"
                 placeholder="example@mail.com"
-                class="form__input"
+                class="form__input p-normal"
                 required="required"
                 pattern="{8,25}"
             /></label>
@@ -202,7 +207,7 @@
               <input
                 type="text"
                 placeholder="+ 7 ( __ __ __ ) __ __ __ - __ __ - __ __"
-                class="form__input"
+                class="form__input p-normal"
                 required="required"
                 pattern="[+][0-9]{9,14}"
             /></label>
@@ -213,7 +218,7 @@
               <input
                 type="text"
                 placeholder="ДД.ММ.ГГ"
-                class="form__input"
+                class="form__input p-normal"
                 pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}"
                 required="required"
             /></label>
@@ -222,7 +227,7 @@
               <input
                 type="text"
                 placeholder="ДД.ММ.ГГ"
-                class="form__input"
+                class="form__input p-normal"
                 pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}"
                 required="required"
             /></label>

@@ -9,11 +9,11 @@ a.map((element, index) => document.getElementById(element)).map(
 function modifyElement(elem) {
   const a = ["PONE", "PTWO", "PTHREE", "PFOUR", "PFIVE"];
   a.splice(a.indexOf(elem), 1);
-  document.getElementById(elem).classList.add("p_hover__type-tour_one");
-  document.getElementById(elem).classList.remove("type-tour__li");
+  document.getElementById(elem).classList.add("type-tour__li__button_active");
+  document.getElementById(elem).classList.remove("type-tour__li__button");
   for (let i = 0; i < 4; i++) {
     const b = a[i];
-    document.getElementById(b).classList.add("type-tour__li");
-    document.getElementById(b).classList.remove("p_hover__type-tour_one");
+    document.getElementById(b).classList.add("type-tour__li__button");
+    document.getElementById(b).classList.remove("type-tour__li__button_active");
   }
 }

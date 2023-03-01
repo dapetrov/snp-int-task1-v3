@@ -474,25 +474,6 @@ p {
   }
 }
 
-/* .p_hover__type-tour_one {
-  height: 25px;
-  user-select: none;
-  border-bottom: #efa501 solid 2px;
-  color: #efa501;
-  cursor: pointer;
-} */
-
-/* @media (min-width: 1023px) {
-  .p_hover__type-tour_one {
-    height: 28px;
-  }
-}
-@media (min-width: 1800px) {
-  .p_hover__type-tour_one {
-    height: 34px;
-  }
-} */
-
 .type-tour__li {
   height: 25px;
   margin-left: 10px;
@@ -503,12 +484,6 @@ p {
 @media (min-width: 1023px) {
   .type-tour__li {
     height: 28px;
-  }
-}
-@media (min-width: 1023px) {
-  .type-tour__li :hover {
-    cursor: pointer;
-    border-bottom: #1b1f2b solid 2px;
   }
 }
 @media (min-width: 1800px) {
@@ -523,6 +498,32 @@ p {
   color: inherit;
   background-color: transparent;
 }
+@media (min-width: 1023px) {
+  .type-tour__li__button:hover {
+    cursor: pointer;
+    border-bottom: #1b1f2b solid 2px;
+  }
+}
+
+.type-tour__li__button_active {
+  padding: 0;
+  border: none;
+  font: inherit;
+  border-bottom: #efa501 solid 2px;
+  color: #efa501;
+  cursor: pointer;
+}
+
+/* @media (min-width: 1023px) {
+  .p_hover__type-tour_one {
+    height: 28px;
+  }
+}
+@media (min-width: 1800px) {
+  .p_hover__type-tour_one {
+    height: 34px;
+  }
+} */
 
 .cards-tours {
   display: block;
@@ -1037,11 +1038,10 @@ p {
   border-radius: 10px;
   background: #f9f7f4;
   outline: none;
+  text-decoration: none;
   height: 43px;
   width: 278px;
   color: #1b1f2b;
-  font-size: 16px;
-  font-family: Tahoma;
   padding-left: 10px;
   margin-bottom: 30px;
   display: block;
