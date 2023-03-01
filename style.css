@@ -1532,104 +1532,104 @@ p {
   }
 }
 
-.one-row-one-photo {
+.row-1-1-photo {
   background: url(/src/PhotoCards/travelphoto-1.png);
   background-size: cover;
 }
 
-.one-row-two-photo {
+.row-1-2-photo {
   background: url(/src/PhotoCards/travelphoto-4.png);
   background-size: cover;
 }
 
-.one-row-three-photo {
+.row-1-3-photo {
   background: url(./src/PhotoCards/travelphoto-2.png);
   background-size: cover;
   display: none;
 }
 @media (min-width: 1800px) {
-  .one-row-three-photo {
+  .row-1-3-photo {
     display: block;
   }
 }
 
-.one-row-four-photo {
+.row-1-4-photo {
   background: url(./src/PhotoCards/travelphoto-3.jpg);
   background-size: cover;
   display: none;
 }
 @media (min-width: 1023px) {
-  .one-row-four-photo {
+  .row-1-4-photo {
     display: block;
   }
 }
 
-.two-row-one-photo {
+.row-2-1-photo {
   background: url(/src/PhotoCards/travelphoto-5.png);
   background-size: cover;
 }
 
-.two-row-two-photo {
+.row-2-2-photo {
   background: url(/src/PhotoCards/travelphoto-8.png);
   background-size: cover;
 }
 
-.two-row-three-photo {
+.row-2-3-photo {
   background: url(/src/PhotoCards//travelphoto-13.png);
   background-size: cover;
   background-position: 30% center !important;
 }
 
-.two-row-four-photo {
+.row-2-4-photo {
   background: url(./src/PhotoCards/travelphoto-6.png);
   background-size: cover;
   display: none;
 }
 @media (min-width: 1023px) {
-  .two-row-four-photo {
+  .row-2-4-photo {
     display: block;
   }
 }
 
-.two-row-five-photo {
+.row-2-5-photo {
   background: url(./src/PhotoCards/travelphoto-7.png);
   background-size: cover;
   display: none;
 }
 @media (min-width: 1800px) {
-  .two-row-five-photo {
+  .row-2-5-photo {
     display: block;
   }
 }
 
-.three-row-one-photo {
+.row-3-1-photo {
   background: url(/src/PhotoCards/travelphoto-9.png);
   background-size: cover;
 }
 
-.three-row-two-photo {
+.row-3-2-photo {
   background: url(/src/PhotoCards/travelphoto-10.png);
   background-size: cover;
 }
 
-.three-row-three-photo {
+.row-3-3-photo {
   background: url(./src/PhotoCards/travelphoto-11.png);
   background-size: cover;
   display: none;
 }
 @media (min-width: 1023px) {
-  .three-row-three-photo {
+  .row-3-3-photo {
     display: block;
   }
 }
 
-.three-row-four-photo {
+.row-3-4-photo {
   background: url(./src/PhotoCards/travelphoto-12.png);
   background-size: cover;
   display: none;
 }
 @media (min-width: 1800px) {
-  .three-row-four-photo {
+  .row-3-4-photo {
     display: block;
   }
 }
