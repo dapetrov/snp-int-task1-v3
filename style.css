@@ -34,7 +34,7 @@ p {
   margin: 0;
 }
 
-.font_h1 {
+.font-h1 {
   font-family: "Roboto", "Arial";
   font-style: normal;
   font-weight: 700;
@@ -46,7 +46,7 @@ p {
   margin: 0;
 }
 @media (min-width: 1023px) {
-  .font_h1 {
+  .font-h1 {
     font-family: "Roboto", "Arial";
     font-style: normal;
     font-weight: 700;
@@ -506,13 +506,13 @@ p {
 }
 
 .type-tour__li__button_active {
-  padding: 0;
+  /* padding: 0;
   border: none;
-  font: inherit;
+  font: inherit; */
   border-bottom: #efa501 solid 2px;
   color: #efa501;
-  cursor: pointer;
-  background-color: transparent;
+  /* cursor: pointer;
+  background-color: transparent; */
 }
 
 .cards-tours {
