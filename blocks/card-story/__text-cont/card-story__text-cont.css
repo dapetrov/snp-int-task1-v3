@@ -6,8 +6,8 @@
   padding-top: 30px;
 }
 @media (min-width: 1023px) {
-    .card-story__text-cont {
-        padding-left: 60px;
-        padding-top: 60px;
-      }
+  .card-story__text-cont {
+    padding-left: 60px;
+    padding-top: 60px;
+  }
 }

@@ -3,8 +3,8 @@
   width: 263px;
 }
 @media (min-width: 1023px) {
-    .card-story__text-cont__t-two {
-        margin-top: 20px;
-        width: 544px;
-      }
+  .card-story__text-cont__t-two {
+    margin-top: 20px;
+    width: 544px;
+  }
 }

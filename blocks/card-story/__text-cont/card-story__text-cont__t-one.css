@@ -4,8 +4,8 @@
   margin-bottom: 20px;
 }
 @media (min-width: 1023px) {
-    .card-story__text-cont__t-one {
-        width: 100%;
-        margin-bottom: 37px;
-      }
+  .card-story__text-cont__t-one {
+    width: 100%;
+    margin-bottom: 37px;
+  }
 }

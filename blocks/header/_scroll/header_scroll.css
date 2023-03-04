@@ -27,12 +27,12 @@
   color: black;
 }
 @media (max-width: 1023px) {
-    .header_scroll > .header__logo_black {
-        margin-top: 0;
-      }
+  .header_scroll > .header__logo_black {
+    margin-top: 0;
+  }
 }
 @media (max-width: 1023px) {
-    .header_scroll > .phone-num {
-        margin-top: 0;
-      }
+  .header_scroll > .phone-num {
+    margin-top: 0;
+  }
 }
