@@ -1,9 +1,9 @@
 @import url(/blocks/font/_h1/font_h1.css);
 @import url(/blocks/font/_h2/font_h2.css);
 @import url(/blocks/font/_h3/font_h3.css);
-@import url(/blocks/p-big/p-big.css);
-@import url(/blocks/p-normal/p-normal.css);
-@import url(/blocks/p-small/p-small.css);
+@import url(/other-styles/p-styles/p-big/p-big.css);
+@import url(/other-styles/p-styles/p-normal/p-normal.css);
+@import url(/other-styles/p-styles/p-small/p-small.css);
 @import url(/blocks/welcome-page/welcome-page.css);
 @import url(/blocks/header/header.css);
 @import url(/blocks/header/_scroll/header_scroll.css);
