@@ -1,0 +1,9 @@
+.form__radio-cont {
+  align-items: flex-start;
+}
+@media (min-width: 1023px) {
+  .form__radio-cont {
+    width: 798px;
+    height: 64px;
+  }
+}

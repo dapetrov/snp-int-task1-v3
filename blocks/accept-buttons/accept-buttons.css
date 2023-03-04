@@ -1,0 +1,24 @@
+.accept-buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-top: 30px;
+  gap: 10px;
+  padding: 0px;
+  width: 100%;
+}
+@media (min-width: 1023px) {
+  .accept-buttons {
+    gap: 30px;
+  }
+}
+@media (min-width: 1023px) {
+  .accept-buttons {
+    margin-right: 298px;
+  }
+}
+@media (min-width: 1800px) {
+  .accept-buttons {
+    margin-right: 530px;
+  }
+}

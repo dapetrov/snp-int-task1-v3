@@ -1,0 +1,45 @@
+.form__select {
+  margin-top: 8px;
+  transition: 0.2s linear;
+  border: 1px solid #f4f0e9;
+  border-radius: 10px;
+  background: #f9f7f4;
+  outline: none;
+  height: 43px;
+  width: 278px;
+  color: grey;
+  font-size: 16px;
+  font-family: Tahoma;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  appearance: none;
+  display: block;
+}
+.form__select:focus {
+  border: #a6a6a6 1px solid;
+  background-color: #f4f0e9;
+}
+@media (min-width: 1023px) {
+  .form__select {
+    width: 389px;
+    height: 68px;
+  }
+}
+@media (min-width: 1023px) {
+  .form__select:hover {
+    cursor: pointer;
+    background-color: #f4f0e9;
+  }
+}
+@media (min-width: 1023px) {
+  .form__select:focus {
+    background-color: #f4f0e9;
+  }
+}
+@media (min-width: 1800px) {
+  .form__select {
+    width: 500px;
+    height: 68px;
+  }
+}

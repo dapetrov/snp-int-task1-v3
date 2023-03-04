@@ -1,0 +1,16 @@
+.story-links__vk-yt {
+  margin-left: 35px;
+  color: white;
+}
+@media (min-width: 1023px) {
+  .story-links__vk-yt:hover {
+    cursor: pointer;
+    border-bottom: 2px solid;
+  }
+}
+@media (min-width: 1023px) {
+  .story-links__vk-yt:active {
+    color: #efa501;
+    border-bottom: 2px solid #efa501;
+  }
+}

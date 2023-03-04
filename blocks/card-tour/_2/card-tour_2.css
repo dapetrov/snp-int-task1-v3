@@ -1,0 +1,21 @@
+.card-tour_2 {
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/Cards/card_photo-2.png);
+  background-size: cover;
+  background-position: center bottom;
+}
+@media (min-width: 1023px) {
+  .card-tour_2 {
+    margin-left: 18px;
+  }
+}
+@media (min-width: 1800px) {
+  .card-tour_2 {
+    margin-left: 30px;
+  }
+}

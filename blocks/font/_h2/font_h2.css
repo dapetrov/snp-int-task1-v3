@@ -1,0 +1,22 @@
+.font_h2 {
+  font-family: "Roboto", "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 112%;
+  letter-spacing: 0.02em;
+  color: #1b1f2b;
+  padding-top: 75px;
+  margin: 0;
+}
+@media (min-width: 1023px) {
+  .font_h2 {
+    font-family: "Roboto", "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 124%;
+    color: #1b1f2b;
+    padding-top: 135px;
+  }
+}

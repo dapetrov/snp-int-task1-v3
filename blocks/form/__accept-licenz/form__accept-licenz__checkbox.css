@@ -1,0 +1,16 @@
+@media (max-width: 1023px) {
+  .form__accept-licenz__checkbox:checked + label {
+    background: url(../../../src/RadioButton-CheckBox/CheckboxSVG2M.svg);
+    height: 20px;
+    min-width: 20px;
+  }
+}
+@media (min-width: 1023px) {
+  .form__accept-licenz__checkbox:checked + label {
+    background: url(../../../src/RadioButton-CheckBox/CheckboxSVG2.svg);
+  }
+}
+.form__accept-licenz__checkbox {
+  display: none;
+  margin: 0;
+}

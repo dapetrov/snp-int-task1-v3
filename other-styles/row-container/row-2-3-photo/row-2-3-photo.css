@@ -1,0 +1,5 @@
+.row-2-3-photo {
+  background: url(/src/PhotoCards//travelphoto-13.png);
+  background-size: cover;
+  background-position: 30% center !important;
+}

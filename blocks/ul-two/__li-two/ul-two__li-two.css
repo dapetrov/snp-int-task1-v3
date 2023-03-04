@@ -1,0 +1,24 @@
+.ul-two__li-two {
+  width: 99.33px;
+  height: 110px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 1023px) {
+  .ul-two__li-two {
+    width: 231px;
+    height: 301px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+@media (min-width: 1885px) {
+  .ul-two__li-two {
+    width: 349.16px;
+    height: 301px;
+    background-size: cover;
+    background-position: center center !important;
+  }
+}

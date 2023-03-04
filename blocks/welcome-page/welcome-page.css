@@ -1,0 +1,33 @@
+.welcome-page {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 39.9%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/src/Footer/footerphoto.png);
+  height: 488px;
+  background-size: cover;
+  background-position: 25%;
+}
+@media (min-width: 1023px) {
+  .welcome-page {
+    height: 831px;
+    background-size: 100%;
+    background-position: right 75%;
+  }
+}
+@media (min-width: 1800px) {
+  .welcome-page {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 39.9%
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(/src/Header/header-img.png);
+    background-position: center;
+    background-size: cover;
+    height: 831px;
+  }
+}

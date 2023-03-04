@@ -1,0 +1,10 @@
+.navigation__li__a {
+  color: white;
+  text-decoration: none;
+}
+.navigation__li__a :active {
+  text-decoration: none;
+}
+.navigation__li__a :checked {
+  text-decoration: none;
+}

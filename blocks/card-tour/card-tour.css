@@ -1,0 +1,51 @@
+.card-tour {
+  display: inline-block;
+  margin-top: 18px;
+  width: 318px;
+  height: 318px;
+  border-radius: 20px;
+  padding: 25px 25px 0px 25px;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1023px) {
+  .card-tour {
+    margin-top: 18px;
+    border-radius: 50px;
+    width: 450px;
+    height: 531px;
+    padding: 50px 0px 0px 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1023px) {
+  .card-tour:hover .card-tour__background-cont {
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+  }
+}
+@media (min-width: 1023px) {
+  .card-tour:hover .more {
+    transition: 0.4s linear;
+    background: #286562;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1023px) {
+  .card-tour:hover .more:active {
+    background-color: #efa501;
+  }
+}
+@media (min-width: 1800px) {
+  .card-tour {
+    margin-top: 30px;
+    width: 370px;
+    height: 531px;
+    padding: 50px 0px 0px 30px;
+    position: relative;
+    overflow: hidden;
+  }
+}

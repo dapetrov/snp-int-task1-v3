@@ -1,0 +1,22 @@
+.ul-one__li-one {
+  width: 150px;
+  height: 110px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 1023px) {
+    .ul-one__li-one {
+        width: 314.67px;
+        height: 300px;
+        border-radius: 50px;
+        background-size: cover;
+        background-position: center center;
+      }
+}
+@media (min-width: 1885px) {
+    .ul-one__li-one {
+        width: 442.5px;
+        height: 300px;
+      }
+}

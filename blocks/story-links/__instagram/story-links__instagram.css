@@ -1,0 +1,15 @@
+.story-links__instagram {
+  color: white;
+}
+@media (min-width: 1023px) {
+  .story-links__instagram:hover {
+    cursor: pointer;
+    border-bottom: 2px solid;
+  }
+}
+@media (min-width: 1023px) {
+  .story-links__instagram:active {
+    color: #efa501;
+    border-bottom: 2px solid #efa501;
+  }
+}

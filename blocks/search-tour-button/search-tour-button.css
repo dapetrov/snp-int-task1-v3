@@ -1,0 +1,36 @@
+.search-tour-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 20px;
+  gap: 10px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 114px;
+  height: 33px;
+  user-select: none;
+  transition: 0.2s linear;
+  border: none;
+  outline: 0;
+}
+@media (min-width: 1023px) {
+  .search-tour-button {
+    width: 118px;
+    height: 34px;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1023px) {
+  .search-tour-button:hover {
+    background-color: #efa501;
+    color: white;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1023px) {
+  .search-tour-button:active {
+    background-color: #f8e6be;
+    color: black;
+  }
+}

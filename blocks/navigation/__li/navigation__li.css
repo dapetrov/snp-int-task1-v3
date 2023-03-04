@@ -1,0 +1,7 @@
+.navigation__li :hover {
+  border-bottom: solid white 1px;
+  cursor: pointer;
+}
+.navigation__li {
+  list-style-type: none;
+}

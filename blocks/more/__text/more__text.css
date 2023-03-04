@@ -1,0 +1,13 @@
+.more__text {
+  color: white;
+}
+@media (min-width: 1023px) {
+  .more__text {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 1800px) {
+  .more__text {
+    padding-left: 20px;
+  }
+}

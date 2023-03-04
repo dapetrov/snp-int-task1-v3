@@ -1,0 +1,16 @@
+.rewiew-cards {
+  padding-top: 10px;
+}
+@media (min-width: 1023px) {
+  .rewiew-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding-top: 0px;
+  }
+}
+@media (min-width: 1800px) {
+  .rewiew-cards {
+    gap: 30px;
+  }
+}

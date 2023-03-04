@@ -1,0 +1,17 @@
+.header__text-container__text-two {
+  color: white;
+  margin: 40px 25px 0 25px;
+  text-align: center;
+  width: 310px;
+}
+@media (min-width: 1023px) {
+  .header__text-container__text-two {
+    width: 442px;
+    margin: 50px 25px 0 25px;
+  }
+}
+@media (min-width: 1800px) {
+  .header__text-container__text-two {
+    width: 562px;
+  }
+}

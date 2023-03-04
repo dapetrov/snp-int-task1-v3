@@ -1,0 +1,12 @@
+.ending-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1023px) {
+  .ending-content {
+    flex-direction: row;
+    width: 771px;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,20 @@
+.story__more_first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 15px;
+  margin-top: 64px;
+}
+@media (min-width: 1023px) {
+  .story__more_first {
+    margin: 90px 0 0 0;
+    gap: 16px;
+  }
+}
+@media (min-width: 1800px) {
+  .story__more_first {
+    margin: 90px 0 0 0;
+  }
+}

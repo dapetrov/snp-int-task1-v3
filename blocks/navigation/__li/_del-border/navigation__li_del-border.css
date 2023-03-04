@@ -1,0 +1,10 @@
+.navigation__li_del-border {
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.navigation__li_del-border:hover {
+  border-bottom: solid black 1px;
+  cursor: pointer;
+  box-sizing: border-box;
+}

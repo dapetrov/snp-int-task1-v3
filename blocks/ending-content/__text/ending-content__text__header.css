@@ -1,0 +1,10 @@
+@media (max-width: 1023px) {
+  .ending-content__text__header {
+    max-width: 291px;
+  }
+}
+@media (max-width: 1023px) {
+  .ending-content__text__header {
+    text-align: center;
+  }
+}

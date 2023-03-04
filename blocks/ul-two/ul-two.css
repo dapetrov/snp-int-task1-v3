@@ -1,0 +1,19 @@
+.ul-two {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0;
+  gap: 10px;
+  list-style-type: none;
+}
+@media (min-width: 1023px) {
+  .ul-two {
+    gap: 20px;
+  }
+}
+@media (min-width: 1800px) {
+  .ul-two {
+    gap: 30px;
+  }
+}

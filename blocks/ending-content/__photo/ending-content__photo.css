@@ -1,0 +1,19 @@
+.ending-content__photo {
+  min-height: 130px;
+  min-width: 133px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  background: url(/src/Footer/footerphoto.png);
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1023px) {
+  .ending-content__photo {
+    min-height: 370px;
+    min-width: 370px;
+    border-radius: 50px;
+    margin: 0;
+    background: url(/src/Footer/footerphoto.png);
+    background-size: cover;
+  }
+}

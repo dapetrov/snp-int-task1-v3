@@ -1,0 +1,22 @@
+.review-card__two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f4f0e9;
+  border-radius: 20px;
+  width: 318px;
+}
+@media (min-width: 1023px) {
+  .review-card__two {
+    width: 450px;
+    height: 841px;
+    border-radius: 50px;
+  }
+}
+@media (min-width: 1800px) {
+  .review-card__two {
+    width: 570px;
+    height: 673px;
+    border-radius: 50px;
+  }
+}

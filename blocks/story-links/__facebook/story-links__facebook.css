@@ -1,0 +1,16 @@
+.story-links__facebook {
+  margin-left: 35px;
+  color: white;
+}
+@media (min-width: 1023px) {
+  .story-links__facebook:hover {
+    cursor: pointer;
+    border-bottom: 2px solid;
+  }
+}
+@media (min-width: 1023px) {
+  .story-links__facebook:active {
+    color: #efa501;
+    border-bottom: 2px solid #efa501;
+  }
+}

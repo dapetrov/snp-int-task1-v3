@@ -1,0 +1,16 @@
+.header__text-container__text-one {
+  color: white;
+  margin: 84.5px 0 0 0;
+  width: 400px;
+}
+@media (min-width: 1023px) {
+  .header__text-container__text-one {
+    margin-top: 119px;
+    width: 600px;
+  }
+}
+@media (min-width: 1800px) {
+  .header__text-container__text-one {
+    width: 768px;
+  }
+}

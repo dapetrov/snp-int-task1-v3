@@ -1,0 +1,15 @@
+.card-story__3 {
+  background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0) 0.01%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/src/StoryPhoto/storyphoto-3.png);
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1800px) {
+  .card-story__3 {
+    background: none;
+  }
+}

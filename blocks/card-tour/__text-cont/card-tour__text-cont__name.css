@@ -1,0 +1,10 @@
+.card-tour__text-cont__name {
+  color: white;
+  margin: 0;
+  text-align: start;
+}
+@media (min-width: 1800px) {
+  .card-tour__text-cont__name {
+    margin-left: 20px;
+  }
+}

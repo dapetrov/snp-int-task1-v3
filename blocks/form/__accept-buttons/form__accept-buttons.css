@@ -1,0 +1,13 @@
+.form__accept-buttons {
+  width: 278px;
+}
+@media (min-width: 1023px) {
+  .form__accept-buttons {
+    width: auto;
+  }
+}
+@media (min-width: 1800px) {
+  .form__accept-buttons {
+    width: 1030px;
+  }
+}

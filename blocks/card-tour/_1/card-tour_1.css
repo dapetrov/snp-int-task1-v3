@@ -1,0 +1,12 @@
+.card-tour_1 {
+  overflow: hidden;
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/Cards/card_photo-1.png);
+  background-size: cover;
+  background-position: center;
+}

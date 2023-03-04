@@ -1,0 +1,18 @@
+.radio__button {
+  margin: 0;
+  display: none;
+}
+.radio__button:checked + label {
+  background: url(../../../src/RadioButton-CheckBox/RadioSVG2.svg);
+}
+@media (max-width: 1023px) {
+  .radio__button {
+    display: none;
+    margin: 0;
+  }
+}
+@media (max-width: 1023px) {
+  .radio__button:checked + label {
+    background: url(../../../src/RadioButton-CheckBox/RadioSVG2M.svg);
+  }
+}

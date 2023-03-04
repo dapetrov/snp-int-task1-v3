@@ -1,0 +1,10 @@
+.row-3-4-photo {
+  background: url(/src/PhotoCards/travelphoto-12.png);
+  background-size: cover;
+  display: none;
+}
+@media (min-width: 1800px) {
+  .row-3-4-photo {
+    display: block;
+  }
+}

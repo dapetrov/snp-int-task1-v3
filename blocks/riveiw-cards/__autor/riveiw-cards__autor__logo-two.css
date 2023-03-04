@@ -1,0 +1,7 @@
+.riveiw-cards__autor__logo-two {
+  height: 75px;
+  width: 75px;
+  background-image: url(/src/ReviewsPhotos/reviewphoto-2.png);
+  border-radius: 100px;
+  background-size: cover;
+}

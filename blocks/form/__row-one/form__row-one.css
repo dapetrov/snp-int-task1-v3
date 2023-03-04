@@ -1,0 +1,32 @@
+@media (min-width: 1023px) {
+  .form__row-one {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media (min-width: 1023px) {
+  .form__row-one::after {
+    position: absolute;
+    content: "";
+    display: block;
+    background: url(../../../src/Vectors/Vector-arrow.svg);
+    height: 11px;
+    width: 18px;
+    margin-top: 70px;
+    margin-left: 760px;
+  }
+}
+@media (min-width: 1800px) {
+  .form__row-one::after {
+    position: absolute;
+    content: "";
+    display: block;
+    background: url(../../../src/Vectors/Vector-arrow.svg);
+    height: 11px;
+    width: 18px;
+    margin-top: 70px;
+    margin-left: 980px;
+    pointer-events: none;
+  }
+}

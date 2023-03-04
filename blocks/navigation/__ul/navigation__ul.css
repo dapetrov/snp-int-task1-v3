@@ -1,0 +1,19 @@
+.navigation__ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 30px;
+  color: white;
+  padding-left: 0px;
+}
+@media (max-width: 1023px) {
+  .navigation__ul {
+    display: none;
+  }
+}
+@media (min-width: 1800px) {
+  .navigation__ul {
+    gap: 50px;
+  }
+}

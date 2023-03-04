@@ -1,0 +1,22 @@
+.background-container6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/src/Cards/card_photo-6.png);
+  background-size: cover;
+}
+@media (max-width: 1023px) {
+  .background-container6 {
+    background: none;
+  }
+}

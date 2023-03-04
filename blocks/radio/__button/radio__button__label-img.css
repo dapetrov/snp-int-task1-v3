@@ -1,0 +1,15 @@
+.radio__button__label-img {
+  height: 26px;
+  width: 26px;
+  background: url(../../../src/RadioButton-CheckBox/RadioSVG1.svg);
+}
+.radio__button__label-img:hover {
+  cursor: pointer;
+}
+@media (max-width: 1023px) {
+  .radio__button__label-img {
+    height: 20px;
+    width: 20px;
+    background: url(../../../src/RadioButton-CheckBox/RadioSVG1M.svg);
+  }
+}

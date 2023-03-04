@@ -1,0 +1,16 @@
+.footer {
+  justify-content: center;
+  align-items: center;
+  padding: 21px 0px 21px 0;
+  gap: 7px;
+  margin: 0;
+  height: 95px;
+}
+@media (min-width: 1023px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 88px;
+      }
+}

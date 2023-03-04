@@ -1,0 +1,41 @@
+.form__textarea {
+  transition: 0.2s linear;
+  border: 1px solid #f4f0e9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  outline: none;
+  background: #f9f7f4;
+  height: 132px;
+  width: 278px;
+  color: #1b1f2b;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  resize: none;
+  display: block;
+  margin-top: 8px;
+}
+.form__textarea:focus {
+  border: 1px solid #a6a6a6;
+  background-color: #f4f0e9;
+}
+@media (min-width: 1023px) {
+  .form__textarea {
+    width: 798px;
+    height: 152px;
+  }
+}
+@media (min-width: 1023px) {
+  .form__textarea:hover {
+    cursor: pointer;
+    background-color: #f4f0e9;
+  }
+}
+@media (min-width: 1800px) {
+  .form__textarea {
+    width: 1030px;
+    height: 152px;
+  }
+}

@@ -1,0 +1,39 @@
+.button-more {
+  padding: 0px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+.button-more:before {
+  content: "Подробнее";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: white;
+}
+.button-more:after {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 15px;
+  vertical-align: middle;
+  background-image: url(/src/Vectors/Vector.svg);
+  background-repeat: no-repeat;
+}
+@media (min-width: 1023px) {
+  .button-more {
+    width: 199px;
+    height: 42px;
+    border-radius: 50px;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1800px) {
+  .button-more {
+    width: 199px;
+    height: 42px;
+    border-radius: 50px;
+    align-items: center;
+    overflow: hidden;
+  }
+}

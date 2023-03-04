@@ -1,0 +1,20 @@
+.social-media__container__name {
+  color: #1b1f2b;
+}
+@media (min-width: 1023px) {
+  .social-media__container__name {
+    height: 27px;
+  }
+}
+@media (min-width: 1023px) {
+  .social-media__container__name:hover {
+    cursor: pointer;
+    border-bottom: 2px solid;
+  }
+}
+@media (min-width: 1023px) {
+  .social-media__container__name:active {
+    color: #efa501;
+    border-bottom: 2px solid #efa501;
+  }
+}

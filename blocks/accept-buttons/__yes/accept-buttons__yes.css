@@ -1,0 +1,27 @@
+.accept-buttons__yes {
+  width: 134px;
+  height: 47px;
+  text-align: center;
+  border: none;
+  background: #286562;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: 0.2s linear;
+}
+@media (min-width: 1023px) {
+  .accept-buttons__yes {
+    width: 235px;
+    height: 58px;
+  }
+}
+@media (min-width: 1023px) {
+  .accept-buttons__yes:hover {
+    cursor: pointer;
+    background-color: #3b7e7b;
+  }
+}
+@media (min-width: 1023px) {
+  .accept-buttons__yes:active {
+    background-color: #627f7e;
+  }
+}

@@ -1,0 +1,19 @@
+.ul-one {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 18px;
+  list-style-type: none;
+  margin: 0;
+}
+@media (min-width: 1023px) {
+    .ul-one {
+        gap: 20px;
+      }
+}
+@media (min-width: 1800px) {
+    .ul-one {
+        gap: 30px;
+      }
+}

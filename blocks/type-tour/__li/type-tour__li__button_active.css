@@ -1,0 +1,9 @@
+.type-tour__li__button_active {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border-bottom: #efa501 solid 2px;
+  color: #efa501;
+}

@@ -1,0 +1,10 @@
+@media (max-width: 1023px) {
+  .ending-content__text__p {
+    text-align: center;
+  }
+}
+.ending-content__text__p {
+  margin-top: 20px;
+  color: #a6a6a6;
+  padding-bottom: 75px;
+}
