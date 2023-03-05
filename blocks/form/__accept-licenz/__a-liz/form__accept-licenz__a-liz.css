@@ -1,15 +1,15 @@
-.a__licenz {
+.form__accept-licenz__a-liz {
   color: #1b1f2b;
   text-decoration: none;
 }
 @media (min-width: 1023px) {
-  .a__licenz:hover {
+  .form__accept-licenz__a-liz:hover {
     cursor: pointer;
     border-bottom: 2px solid;
   }
 }
 @media (min-width: 1023px) {
-  .a__licenz:active {
+  .form__accept-licenz__a-liz:active {
     color: #286562;
     border-bottom: 2px solid #286562;
   }

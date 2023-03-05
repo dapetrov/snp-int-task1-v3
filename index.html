@@ -62,22 +62,22 @@
     </header>
     <main>
       <section class="choose-tour">
-        <h2 class="header-h2 font_h2" id="Tours">Выбери свой тур</h2>
+        <h2 class="section-h2 font_h2" id="Tours">Выбери свой тур</h2>
         <ul class="tour-type p-big">
-          <li class="type-tour__li">
-            <button class="type-tour__li__button" id="PONE">Популярные</button>
+          <li class="tour-type__li">
+            <button class="tour-type__li__button" id="PONE">Популярные</button>
           </li>
-          <li class="type-tour__li">
-            <button class="type-tour__li__button" id="PTWO">Авторские</button>
+          <li class="tour-type__li">
+            <button class="tour-type__li__button" id="PTWO">Авторские</button>
           </li>
-          <li class="type-tour__li">
-            <button class="type-tour__li__button" id="PTHREE">Походы</button>
+          <li class="tour-type__li">
+            <button class="tour-type__li__button" id="PTHREE">Походы</button>
           </li>
-          <li class="type-tour__li">
-            <button class="type-tour__li__button" id="PFOUR">Сплавы</button>
+          <li class="tour-type__li">
+            <button class="tour-type__li__button" id="PFOUR">Сплавы</button>
           </li>
-          <li class="type-tour__li">
-            <button class="type-tour__li__button" id="PFIVE">
+          <li class="tour-type__li">
+            <button class="tour-type__li__button" id="PFIVE">
               Велопрогулки
             </button>
           </li>
@@ -164,7 +164,7 @@
         </div>
       </section>
       <section class="collect-tour" id="collect-tour">
-        <h2 class="header-h2 font_h2">Собери свой тур</h2>
+        <h2 class="section-h2 font_h2">Собери свой тур</h2>
         <p class="section-description p-normal">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
@@ -285,9 +285,11 @@
                 class="form__accept-licenz__checkbox__label"
                 for="checkboxComputer"
               ></label>
-              <p class="form__accept-licenz__text">
+              <p>
                 Нажимая кнопку, я принимаю условия
-                <a class="a__licenz" href="">Лицензионного договора</a>
+                <a class="form__accept-licenz__a-liz" href=""
+                  >Лицензионного договора</a
+                >
               </p>
             </div>
             <div class="accept-buttons">
@@ -303,7 +305,7 @@
       </section>
 
       <section class="riveiws" id="RevievsTours">
-        <h2 class="header-h2 font_h2">Отзывы наших путешественников</h2>
+        <h2 class="section-h2 font_h2">Отзывы наших путешественников</h2>
         <p class="section-description p-normal">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
@@ -357,7 +359,7 @@
       </section>
 
       <section class="travel-photo">
-        <h2 class="header-h2 font_h2">Фотографии Путешествий</h2>
+        <h2 class="section-h2 font_h2">Фотографии Путешествий</h2>
         <p class="section-description p-normal">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
@@ -386,7 +388,7 @@
       </section>
 
       <section class="travel-story" id="StoryTour">
-        <h2 class="header-h2 font_h2">Истории Путешествий</h2>
+        <h2 class="section-h2 font_h2">Истории Путешествий</h2>
         <p class="section-description p-normal">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
@@ -474,7 +476,7 @@
               Напиши на почту и узнай подробности<br />
               на
               <a
-                class="a__licenz"
+                class="form__accept-licenz__a-liz"
                 href="mailto:yourtour@gmail.com&body=привет?subject=вопрос"
                 >yourtour@gmail.com</a
               >
@@ -503,6 +505,6 @@
       </div>
     </footer>
   </body>
-  <script src="./menu-change-class.js"></script>
-  <script src="scroll-header.js"></script>
+  <script src="/blocks/tour-type/tour-type.js"></script>
+  <script src="/blocks/header/header.js"></script>
 </html>
